@@ -6,8 +6,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
-const aiEngine = require('../ai-engine/engine');
-const memory = require('../config/memory');
+const aiEngine = require('../../ai-engine/engine');
+const memory = require('../../config/memory');
 
 const app = express();
 const server = http.createServer(app);

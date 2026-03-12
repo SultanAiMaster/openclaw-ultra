@@ -4,7 +4,7 @@ const Groq = require('groq-sdk');
 class AIEngine {
   constructor() {
     this.groq = null;
-    this.model = 'mixtral-8x7b-32768'; // Default Groq model
+    this.model = 'llama-3.3-70b-versatile'; // Default Groq model
     this.initialize();
   }
 
